@@ -1,0 +1,38 @@
+{
+  "name": "Divyah Mandavia",
+  "short_name": "Divyah Mandavia",
+  "theme_color": "#f1c232",
+  "background_color": "#f1c232",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+
+  "icons": [
+    {
+      "src": "./favicon_io/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./favicon_io/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon_io/favicon-256",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon_io/favicon-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon_io/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
