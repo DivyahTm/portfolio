@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import eCom from "../../Assets/Projects/E-com.png";
-import jsomBlog from "../../Assets/Projects/jsomBlog.png";
+import ntc from "../../Assets/Projects/ntc.png";
 import SIRE from "../../Assets/Projects/SIRE.jpeg";
 import mllm from "../../Assets/Projects/multimodalchat-ai.png";
-import aA from "../../Assets/Projects/artisteeA.png";
+import mcs from "../../Assets/Projects/MCS.png";
 import easyCode from "../../Assets/Projects/easy-code.png";
 import ReactGA from "react-ga";
 
@@ -61,12 +61,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jsomBlog}
+              imgPath={ntc}
               isBlog={false}
-              title="Jsom Blog"
-              description="It is a basic blog website which cover all the concept of REACTJS. Main Motivation of this project is understand basic features of the Reactjs like  api fetching, multiple filtering in profile , post and comments. It includes lots' of features which is necessary in any blog site. You can visit Live site by clicking below button."
-              link="https://github.com/MohitSojitra/react-blog-website"
-              liveLink="https://react-blog-website.vercel.app/"
+              title="News Text Classification"
+              description="It is a text classification project focused on classifying news articles into predefined categories using various machine learning algorithms and vectorization techniques."
+              link="https://github.com/DivyahTm/News-Text_Classification"
+              liveLink=""
             />
           </Col>
 
@@ -83,7 +83,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={aA}
+              imgPath={mcs}
               isBlog={false}
               title="E-Steer"
               description="E-Steer creates a virtual steering wheel for car games using advanced motion detection. It translates hand movements into precise in-game vehicle control, offering an immersive driving experience. Compatible with popular racing games, it uses sensors and real-time processing to capture steering, acceleration, and braking gestures, bringing racing thrills to your home."
