@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import eCom from "../../Assets/Projects/E-com.png";
+import QASystem from "../../Assets/Projects/QASystem.png";
 import ntc from "../../Assets/Projects/ntc.png";
 import SIRE from "../../Assets/Projects/SIRE.jpeg";
 import mllm from "../../Assets/Projects/multimodalchat-ai.png";
 import mcs from "../../Assets/Projects/MCS.png";
-import easyCode from "../../Assets/Projects/easy-code.png";
+// import easyCode from "../../Assets/Projects/easy-code.png";
 import ReactGA from "react-ga";
 
 function Projects() {
@@ -37,7 +37,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={easyCode}
               isBlog={false}
@@ -46,16 +46,16 @@ function Projects() {
               link="https://github.com/MohitSojitra/easy-code"
               liveLink="https://blog.mohitsojitra.tech/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eCom}
+              imgPath={QASystem}
               isBlog={false}
-              title="Jsom Store"
-              description="It is a basic e-commerce site which build in MERN tech stack. It has a features like login, signup as a part of authentication. Apart from that user add product in cart, modify quantity and also remove poduct in cart. It is a basic e-comerce site which build in pure html, css, reactjs and redux. You can watch live app in below button."
-              link="https://github.com/MohitSojitra/e-commerce-store"
-              liveLink="https://e-commerce-fronend.vercel.app/"
+              title="QA System For NVIDIA CUDA"
+              description="Developed a Question Answering System NVIDIA CUDA documentation using web crawling, vector databases, and natural language processing techniques.This QA System uses NVIDIA CUDA documentation, LangChain, Milvus (HNSW),BM25, and SentenceTransformers for hybrid search and reranking"
+              link="https://github.com/DivyahTm/QA-System-using-Milvis"
+              liveLink=""
             />
           </Col>
 
